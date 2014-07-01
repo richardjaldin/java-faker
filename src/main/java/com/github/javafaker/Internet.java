@@ -29,7 +29,6 @@ public class Internet {
                 "www",
                 ".",
                 name.firstName().toLowerCase(),
-                "-",
                 name.lastName().toLowerCase(),
                 ".",
                 fakeValuesService.fetchString("internet.domain_suffix")
